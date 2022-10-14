@@ -63,7 +63,7 @@ void calculateForSurface(float cubeX, float cubeY, float cubeZ, int ch) {
 
 int main()
 {
-    printf("\x1b[2J"); // \x1b[2J means clear screen
+    printf("\x1b[2J"); // \x1b[2J clears the screen
     while (1) {
         memset(buffer, backgroundASCIICode, width * height);
         memset(zBuffer, 0, width * height * 4);
